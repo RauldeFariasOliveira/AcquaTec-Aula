@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN - ACQUATECH</title>
-    <link rel="stylesheet" href="Estilos.css">
-    <link rel="stylesheet" href="formulario-estilo.css">
+    <title>CADASTRO - ACQUATECH</title>
+    <link rel="stylesheet" href="Estilos2.css">
+    <link rel="stylesheet" href="formulario-estilo2.css">
 
 </head>
 
@@ -19,23 +19,32 @@
                     <li><a href="Index.html">Inicial</a></li>
                     <li>Simulador</li>
                     <li>|</li>
-                    <li id="aqui">Login</li>
-                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li id="aqui">Cadastro</li>
                 </ul>
             </div>
     </div>
     <div class="banner">
         <div class="container">
             <div class="caixa_formulario">
-                <h1>Olá de volta!</h1>
+                <h1>Bem-vindo!</h1>
                 <div class="formulario">
+                    <span>Nome:</span>
+                    <input type="text" id="ipt_nome" placeholder="Seu nome">
+
+                    <span>Data de Nascimento:</span>
+                    <input type="date" id="ipt_dtnasc" placeholder="xx/xx/xxxx">
+
                     <span>E-mail:</span>
-                    <input type="email" id="ipt_email" placeholder="Seu email">
+                    <input type="email" id="ipt_email" placeholder="meuemail@provedor.com">
 
                     <span>Senha:</span>
                     <input type="password" id="ipt_senha" placeholder="*****">
                     
-                    <button>Entrar</button>
+                    <span>Confirmação da Senha:</span>
+                    <input type="password" id="ipt_senha" placeholder="*****">
+
+                    <button>Cadastrar</button>
                 </div>
             </div>
         </div>
